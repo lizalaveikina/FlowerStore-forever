@@ -1,0 +1,11 @@
+GET http://localhost:8080/flower/all
+
+###
+POST https://fierce-sands-46486.herokuapp.com/flower/add
+Content-Type: application/json
+
+{
+  "sepalLength": 100,
+  "color": "RED",
+  "price": 100
+}
